@@ -11,6 +11,11 @@
 - Keep templates editable before save and include safe defaults (`disabled` by default unless user opts in).
 - When adding or changing cron templates, document the user-facing purpose and default schedule.
 
+## Agent-owned communications and provider setup
+
+- Before creating or changing communication channels, provider accounts, webhooks, bots, SMS numbers, email addresses, client portal items, or automations, read applicable global governance first.
+- Use service-owned identities, document provider/account ownership and recovery, never hardcode secrets, keep webhook/callback URLs traceable, and report what remains manual.
+
 ## Cursor Cloud specific instructions
 
 ### Overview
